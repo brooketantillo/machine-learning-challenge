@@ -5,3 +5,17 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 ## Models Explained
 ### Logistic Regression
+- Trained the model on the X_train and y_train scaled which had an output of 0.74 for training data and 0.75 for testing data.
+- After using grid search, the best score had an output of 0.79 which is higher than test/train data.
+
+### K Nearest Neighbor
+- Using k=7, the test accuracy came back as 0.79. Multiple k numbers were used and tested, but settled on 7 for being higher in accuracy, but lower in complexity.
+- After using grid search, the best score had an output of 0.80
+
+### Decision Tree
+- The Decision Tree train score came in at 0.94 and test score at 0.77.
+- The Random Forest train score came in at 0.99 and test score at 0.82.
+- After using grid search, the best score had an output of 0.81
+
+## Conclusion
+
