@@ -18,4 +18,4 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 - After using grid search, the best score had an output of 0.81
 
 ## Conclusion
-
+Of the three models used, the Decision Tree yieled the best score of 0.81 and Logistic Regression had the lowest score. With more tuning to the Decision Tree, I'm confident the best score could be improved by tweaking some of the numbers. 
